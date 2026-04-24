@@ -4,6 +4,7 @@
 #include <catch2/generators/catch_generators_range.hpp>
 
 #include "../src/hello.hpp"
+#include "../src/link.hpp"
 
 TEST_CASE( "it returns Hello World" ) {
     REQUIRE( hello() == "Hello World!" );
