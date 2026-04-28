@@ -33,8 +33,9 @@ class Node {
   Node getNext() {
     return *next;
   }
-  void print() {
+  string print() {
     cout << data.get_material() << endl;
+    return data.get_material();
   }
 
 };
@@ -76,4 +77,6 @@ class LinkedList {
       return head;
     }
   };
+
+
 #endif //LINKS_IN_A_CHAIN_NODE_HPP
